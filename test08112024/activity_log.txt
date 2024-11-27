@@ -1,0 +1,132 @@
+2024-11-09 08:22:36,137 - Error - Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\LENOVO\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x00007FF79FEC3AB5+28005]
+	(No symbol) [0x00007FF79FE283B0]
+	(No symbol) [0x00007FF79FCC580A]
+	(No symbol) [0x00007FF79FCFD321]
+	(No symbol) [0x00007FF79FCF8DAE]
+	(No symbol) [0x00007FF79FD46C71]
+	(No symbol) [0x00007FF79FD462F0]
+	(No symbol) [0x00007FF79FD3B7E3]
+	(No symbol) [0x00007FF79FD075C8]
+	(No symbol) [0x00007FF79FD08731]
+	GetHandleVerifier [0x00007FF7A01B643D+3118829]
+	GetHandleVerifier [0x00007FF7A0206C90+3448640]
+	GetHandleVerifier [0x00007FF7A01FCF0D+3408317]
+	GetHandleVerifier [0x00007FF79FF8A40B+841403]
+	(No symbol) [0x00007FF79FE3340F]
+	(No symbol) [0x00007FF79FE2F484]
+	(No symbol) [0x00007FF79FE2F61D]
+	(No symbol) [0x00007FF79FE1EB79]
+	BaseThreadInitThunk [0x00007FFF0B20259D+29]
+	RtlUserThreadStart [0x00007FFF0CA2AF38+40]
+
+2024-11-09 08:22:44,285 - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D6023D9760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4469ccd8ad306725f3fb2149a608966
+2024-11-09 08:22:48,382 - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D6023DA060>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4469ccd8ad306725f3fb2149a608966
+2024-11-09 08:22:52,489 - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D6023D9CD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/e4469ccd8ad306725f3fb2149a608966
+2024-11-09 08:23:00,677 - Closed browser - 
+2024-11-10 20:23:55,769 - Error - Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\LENOVO\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7901B3AB5+28005]
+	(No symbol) [0x00007FF7901183B0]
+	(No symbol) [0x00007FF78FFB580A]
+	(No symbol) [0x00007FF78FFED321]
+	(No symbol) [0x00007FF78FFE8DAE]
+	(No symbol) [0x00007FF790036C71]
+	(No symbol) [0x00007FF7900362F0]
+	(No symbol) [0x00007FF79002B7E3]
+	(No symbol) [0x00007FF78FFF75C8]
+	(No symbol) [0x00007FF78FFF8731]
+	GetHandleVerifier [0x00007FF7904A643D+3118829]
+	GetHandleVerifier [0x00007FF7904F6C90+3448640]
+	GetHandleVerifier [0x00007FF7904ECF0D+3408317]
+	GetHandleVerifier [0x00007FF79027A40B+841403]
+	(No symbol) [0x00007FF79012340F]
+	(No symbol) [0x00007FF79011F484]
+	(No symbol) [0x00007FF79011F61D]
+	(No symbol) [0x00007FF79010EB79]
+	BaseThreadInitThunk [0x00007FFF0B20259D+29]
+	RtlUserThreadStart [0x00007FFF0CA2AF38+40]
+
+2024-11-10 20:25:05,094 - Error - Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\LENOVO\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7901B3AB5+28005]
+	(No symbol) [0x00007FF7901183B0]
+	(No symbol) [0x00007FF78FFB580A]
+	(No symbol) [0x00007FF78FFED321]
+	(No symbol) [0x00007FF78FFE8DAE]
+	(No symbol) [0x00007FF790036C71]
+	(No symbol) [0x00007FF7900362F0]
+	(No symbol) [0x00007FF79002B7E3]
+	(No symbol) [0x00007FF78FFF75C8]
+	(No symbol) [0x00007FF78FFF8731]
+	GetHandleVerifier [0x00007FF7904A643D+3118829]
+	GetHandleVerifier [0x00007FF7904F6C90+3448640]
+	GetHandleVerifier [0x00007FF7904ECF0D+3408317]
+	GetHandleVerifier [0x00007FF79027A40B+841403]
+	(No symbol) [0x00007FF79012340F]
+	(No symbol) [0x00007FF79011F484]
+	(No symbol) [0x00007FF79011F61D]
+	(No symbol) [0x00007FF79010EB79]
+	BaseThreadInitThunk [0x00007FFF0B20259D+29]
+	RtlUserThreadStart [0x00007FFF0CA2AF38+40]
+
+2024-11-10 20:25:09,214 - Closed browser - 
+2024-11-10 20:25:29,267 - Error - Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\LENOVO\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7901B3AB5+28005]
+	(No symbol) [0x00007FF7901183B0]
+	(No symbol) [0x00007FF78FFB580A]
+	(No symbol) [0x00007FF78FFED321]
+	(No symbol) [0x00007FF78FFE8DAE]
+	(No symbol) [0x00007FF790036C71]
+	(No symbol) [0x00007FF7900362F0]
+	(No symbol) [0x00007FF79002B7E3]
+	(No symbol) [0x00007FF78FFF75C8]
+	(No symbol) [0x00007FF78FFF8731]
+	GetHandleVerifier [0x00007FF7904A643D+3118829]
+	GetHandleVerifier [0x00007FF7904F6C90+3448640]
+	GetHandleVerifier [0x00007FF7904ECF0D+3408317]
+	GetHandleVerifier [0x00007FF79027A40B+841403]
+	(No symbol) [0x00007FF79012340F]
+	(No symbol) [0x00007FF79011F484]
+	(No symbol) [0x00007FF79011F61D]
+	(No symbol) [0x00007FF79010EB79]
+	BaseThreadInitThunk [0x00007FFF0B20259D+29]
+	RtlUserThreadStart [0x00007FFF0CA2AF38+40]
+
+2024-11-10 20:25:33,367 - Closed browser - 
+2024-11-10 20:26:03,652 - Error - Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Users\LENOVO\AppData\Local\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Stacktrace:
+	GetHandleVerifier [0x00007FF7901B3AB5+28005]
+	(No symbol) [0x00007FF7901183B0]
+	(No symbol) [0x00007FF78FFB580A]
+	(No symbol) [0x00007FF78FFED321]
+	(No symbol) [0x00007FF78FFE8DAE]
+	(No symbol) [0x00007FF790036C71]
+	(No symbol) [0x00007FF7900362F0]
+	(No symbol) [0x00007FF79002B7E3]
+	(No symbol) [0x00007FF78FFF75C8]
+	(No symbol) [0x00007FF78FFF8731]
+	GetHandleVerifier [0x00007FF7904A643D+3118829]
+	GetHandleVerifier [0x00007FF7904F6C90+3448640]
+	GetHandleVerifier [0x00007FF7904ECF0D+3408317]
+	GetHandleVerifier [0x00007FF79027A40B+841403]
+	(No symbol) [0x00007FF79012340F]
+	(No symbol) [0x00007FF79011F484]
+	(No symbol) [0x00007FF79011F61D]
+	(No symbol) [0x00007FF79010EB79]
+	BaseThreadInitThunk [0x00007FFF0B20259D+29]
+	RtlUserThreadStart [0x00007FFF0CA2AF38+40]
+
+2024-11-10 20:26:07,747 - Closed browser - 

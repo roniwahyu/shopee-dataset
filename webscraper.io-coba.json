@@ -1,0 +1,86 @@
+{
+  "_id": "shopee-laptop-asus",
+  "startUrl": [
+    "https://shopee.co.id/search?keyword=laptop%20asus"
+  ],
+  "selectors": [
+    {
+      "id": "product-card",
+      "parentSelectors": [
+        "_root"
+      ],
+      "type": "SelectorElement",
+      "selector": "li.shopee-search-item-result__item",
+      "multiple": true,
+      "delay": 2000
+    },
+    {
+      "id": "product-name",
+      "parentSelectors": [
+        "product-card"
+      ],
+      "type": "SelectorText",
+      "selector": ".line-clamp-2",
+      "multiple": false,
+      "regex": "",
+      "delay": 0
+    },
+    {
+      "id": "product-price",
+      "parentSelectors": [
+        "product-card"
+      ],
+      "type": "SelectorText",
+      "selector": ".text-shopee-primary",
+      "multiple": false,
+      "regex": "",
+      "delay": 0
+    },
+    {
+      "id": "product-image",
+      "parentSelectors": [
+        "product-card"
+      ],
+      "type": "SelectorElementAttribute",
+      "selector": "img",
+      "multiple": false,
+      "extractAttribute": "src",
+      "delay": 0
+    },
+    {
+      "id": "product-location",
+      "parentSelectors": [
+        "product-card"
+      ],
+      "type": "SelectorText",
+      "selector": ".text-shopee-black54",
+      "multiple": false,
+      "regex": "",
+      "delay": 0
+    },
+    {
+      "id": "product-rating",
+      "parentSelectors": [
+        "product-card"
+      ],
+      "type": "SelectorText",
+      "selector": ".shopee-rating-stars__stars",
+      "multiple": false,
+      "regex": "",
+      "delay": 0
+    },
+    {
+      "id": "pagination",
+      "parentSelectors": [
+        "_root"
+      ],
+      "type": "SelectorElementClick",
+      "selector": ".shopee-icon-button--right",
+      "multiple": true,
+      "delay": 3000,
+      "clickElementSelector": ".shopee-icon-button--right",
+      "clickType": "clickMore",
+      "discardInitialElements": "do-not-discard"
+    }
+  ]
+}

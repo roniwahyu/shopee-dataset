@@ -1,0 +1,69 @@
+{
+    "_id": "shopee",
+    "startUrl": [
+      "https://shopee.co.id/search?keyword=dompet%20kartu%20wanita%20charles%20and%20keith"
+    ],
+    "selectors": [
+      {
+        "id": "scrol",
+        "parentSelectors": ["_root"],
+        "type": "SelectorElementScroll",
+        "selector": "nav.shopee-page-controller",
+        "multiple": false,
+        "delay": 5000,
+        "elementLimit": 100
+      },
+      {
+        "id": "Url",
+        "parentSelectors": ["scrol"],
+        "type": "SelectorElementScroll",
+        "selector": "button.btn-tinted.btn--l",
+        "multiple": false,
+        "delay": 500,
+        "elementLimit": 1
+      },
+      {
+        "id": "Gbr3",
+        "parentSelectors": ["Url"],
+        "type": "SelectorElementAttribute",
+        "selector": "div.lnM4pa:nth-of-type(4) img",
+        "multiple": false,
+        "extractAttribute": "src"
+      },
+      {
+        "id": "link",
+        "parentSelectors": ["_root"],
+        "type": "SelectorLink",
+        "selector": "a[data-sqe='link']",
+        "multiple": true,
+        "linkType": "linkFromHref"
+      },
+      {
+        "id": "klik",
+        "parentSelectors": ["Url"],
+        "type": "SelectorElementClick",
+        "clickActionType": "real",
+        "clickElementSelector": "svg.x0F377",
+        "clickElementUniquenessType": "uniqueText",
+        "clickType": "clickOnce",
+        "delay": 2000
+      },
+      {
+        "id": "judul",
+        "parentSelectors": ["Url"],
+        "type": "SelectorText",
+        "selector": "._44qnta span",
+        "multiple": false,
+        "regex": ""
+      },
+      {
+        "id": "video",
+        "parentSelectors": ["Url"],
+        "type": "SelectorElementAttribute",
+        "selector": "svg.x0F377",
+        "multiple": false,
+        "discardInitialElements": "do-not-discard"
+      }
+    ]
+  }
+  
